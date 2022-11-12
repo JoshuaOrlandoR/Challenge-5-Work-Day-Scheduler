@@ -77,8 +77,7 @@ $(".saveBtn").on("click", function(){
     localStorage.setItem(valueID, input);
 });
 
-//Get text area value using key + value pair with local storage -
-//using the id of the div as the key to get the stored text area value as the local storage value
+//Get text area value using key + value pair with local storage - using the id of the div as the key to get the stored text area value as the local storage value
 $("#time8 .noteSection").val(localStorage.getItem("time8"))
 $("#time9 .noteSection").val(localStorage.getItem("time9"))
 $("#time10 .noteSection").val(localStorage.getItem("time10"))
